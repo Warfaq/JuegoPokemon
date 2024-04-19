@@ -8,7 +8,7 @@ public void setup(){
   //pokemon.setPosicion(new PVector(width/2,height/2));
 }
 public void draw(){
-  background(0);
+  background(27, 118, 189);
   fondo.dibujar();
   pokemon.dibujar();
 }
