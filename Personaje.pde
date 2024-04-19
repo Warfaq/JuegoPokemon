@@ -1,5 +1,5 @@
 class Personaje{
-  private PVector posicion;
+ //private PVector posicion;
   private PImage imagenPj;
 // private PVector velocidad;
   
@@ -8,9 +8,10 @@ class Personaje{
   }
   public void dibujar(){
     imageMode (CENTER);
-    image (imagenPj,mouseX,mouseY, 100,100);
+    image (imagenPj,mouseX,mouseY, 200,200);
   }
-    public void setPosicion(PVector posicion){
+/*    public void setPosicion(PVector posicion){
     this.posicion = posicion;
   }
+  */
 }
