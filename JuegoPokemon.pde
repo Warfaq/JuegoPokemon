@@ -6,7 +6,7 @@ public void setup(){
   size(800,800);
   pokemon = new Personaje();
   fondo = new Escenario();
-  pokebola = new Enemigo(random(width),0,8);; // Posición aleatoria para x y velocidad
+  pokebola = new Enemigo(random(width),0,30);; // Posición aleatoria para x y velocidad
   //pokemon.setPosicion(new PVector(width/2,height/2));
 }
 public void draw(){
